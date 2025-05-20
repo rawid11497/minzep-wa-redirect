@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      window.onload = function () {
+        const message = encodeURIComponent(
+          "Assalamualaikum, MinZep!\n\nAku tertarik sama Produk Hijab Paris Premium nya nih. Boleh tanya-tanya?"
+        );
+        const numbers = [
+          "https://wa.me/6283890556640?text=" + message,
+          "https://wa.me/6288975066572?text=" + message
+        ];
+        const randomLink = numbers[Math.floor(Math.random() * numbers.length)];
+        window.location.href = randomLink;
+      };
+    </script>
+  </head>
+  <body>
+    <p>Sedang menghubungkan ke Admin MinZep...</p>
+  </body>
+</html>
