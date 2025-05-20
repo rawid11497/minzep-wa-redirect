@@ -1,0 +1,1 @@
+# minzep-wa-redirect
